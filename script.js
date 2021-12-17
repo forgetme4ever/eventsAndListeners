@@ -26,7 +26,7 @@ btn.addEventListener('click', text.addEventListener('change', colorChange));
 btnInCircle.style.display = 'none';
 
 slider.addEventListener('change', radiusChange);
-slider.addEventListener('range', radiusChange)
+slider.addEventListener('input', radiusChange)
 
 
 
